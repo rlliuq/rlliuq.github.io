@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		echo "<h2>Registration Successful</h2>";
 		echo "Thank you for registering, " . $name . "!<br>";
 		echo "You'll be redirected to login page in 3 seconds";
-		header("refresh:3;url=login.html");
+		header("refresh:3;url= https://rlliuq.github.io/login.github.io/");
 	}
 	catch(PDOException $e) {
 		echo "Connection failed: " . $e->getMessage();
